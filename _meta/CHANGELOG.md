@@ -2,6 +2,12 @@
 
 Histórico de mudanças estruturais deste repositório. Não é changelog de conteúdo do dia a dia (isso fica implícito nos commits) — é para marcar decisões de organização.
 
+## v1.2 — 08 de julho de 2026
+
+- **Onboarding formalizado:** novo arquivo `_meta/ONBOARDING.md` com o roteiro completo da entrevista de personalização (identidade, estilo de comunicação, pessoas, projetos, práticas de trabalho, glossário) que o Claude segue quando Luciana pede para "personalizar" ou "preparar" o repositório.
+- Nova seção "Onboarding — primeira personalização" no `README.md`, com os 4 passos prontos para copiar (instruções do Claude, prompt de disparo da entrevista, e fluxo opcional de fusão de preferências extraídas de conversas antigas).
+- `CLAUDE.md` aponta para o onboarding quando a seção "Quem sou" ainda está com placeholder.
+
 ## v1.1 — 08 de julho de 2026
 
 Inspirado numa avaliação do `claude-mem` (plugin de memória de sessão para Claude Code) — não a ferramenta em si (infraestrutura própria, não fazia sentido aqui), mas 3 princípios de arquitetura que o padrão v1.0 ainda não tinha:

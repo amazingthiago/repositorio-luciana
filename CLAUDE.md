@@ -2,7 +2,7 @@
 
 > Cache quente, carregado automaticamente pelo Claude no início de cada sessão neste repositório.
 > Detalhe completo em `memory/` (via índice em `memory/*/_index.md`). Práticas em `melhores-praticas/`.
-> **Versão:** 1.1 | **Última atualização:** 08 de julho de 2026
+> **Versão:** 1.2 | **Última atualização:** 08 de julho de 2026
 
 ---
 
@@ -10,7 +10,7 @@
 
 Luciana, [cargo / squad na Amazing PRO]. [Uma frase sobre o que faz no dia a dia.]
 
-> ⚠️ Preencher esta seção é o primeiro passo. Enquanto estiver vazia, o Claude não tem contexto sobre o papel de Luciana na empresa.
+> ⚠️ Preencher esta seção é o primeiro passo. Enquanto estiver vazia, o Claude não tem contexto sobre o papel de Luciana na empresa. Se ainda não passou pela entrevista de personalização, ver "Onboarding" no `README.md`.
 
 ## Pessoas-chave
 
