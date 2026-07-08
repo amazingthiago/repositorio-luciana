@@ -1,8 +1,8 @@
 # Memória de Trabalho — Luciana
 
 > Cache quente, carregado automaticamente pelo Claude no início de cada sessão neste repositório.
-> Detalhe completo em `memory/`. Práticas em `melhores-praticas/`.
-> **Versão:** 1.0 | **Última atualização:** 07 de julho de 2026
+> Detalhe completo em `memory/` (via índice em `memory/*/_index.md`). Práticas em `melhores-praticas/`.
+> **Versão:** 1.1 | **Última atualização:** 08 de julho de 2026
 
 ---
 
@@ -18,7 +18,8 @@ Luciana, [cargo / squad na Amazing PRO]. [Uma frase sobre o que faz no dia a dia
 |---|---|
 | *(adicionar conforme for trabalhando)* | |
 
-→ Lista completa e perfis: `memory/pessoas/`
+→ Índice rápido de todas as pessoas (antes de abrir perfil completo): `memory/pessoas/_index.md`
+→ Perfis completos: `memory/pessoas/`
 
 ## Projetos ativos
 
@@ -26,6 +27,7 @@ Luciana, [cargo / squad na Amazing PRO]. [Uma frase sobre o que faz no dia a dia
 |---|---|
 | *(adicionar projetos em andamento)* | |
 
+→ Índice rápido de todos os projetos (antes de abrir arquivo completo): `memory/projetos/_index.md`
 → Histórico e detalhe: `memory/projetos/`
 
 ## Glossário rápido
@@ -50,11 +52,20 @@ Luciana, [cargo / squad na Amazing PRO]. [Uma frase sobre o que faz no dia a dia
 
 Processos e aprendizados que Luciana quer que o Claude siga de forma consistente vivem em `melhores-praticas/`. Consultar sempre que a tarefa se encaixar em um processo já documentado ali.
 
+## Privacidade
+
+Conteúdo sob uma seção `## 🔒 Privado` em qualquer arquivo (pessoa, projeto, prática) informa o raciocínio do Claude mas nunca é citado literalmente, exportado ou repassado a terceiros. Convenção completa em `README.md`.
+
+## Encerramento de sessão
+
+Ao final de uma sessão de trabalho substantiva, ofereça proativamente um resumo do que valeria registrar (pessoa nova, decisão, prática que se repetiu) — não espere só o gatilho "lembra disso" partir de Luciana.
+
 ---
 
 ## Como manter este arquivo
 
 - Manter **enxuto** — só o que é usado com frequência (o "top 30").
-- Projeto encerrado ou pessoa que virou contato raro → sai daqui, mas continua em `memory/`.
+- Projeto encerrado ou pessoa que virou contato raro → sai daqui, mas continua em `memory/` (e no índice correspondente).
 - Termo novo que ainda não é frequente → vai direto para `memory/glossario.md`, não aqui.
+- Perfil novo em `memory/` → sempre ganha uma linha no `_index.md` correspondente no mesmo commit.
 - Regras completas de organização: ver `README.md` na raiz do repositório.
